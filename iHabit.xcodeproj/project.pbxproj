@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4649C82AB1AB520081C7F2 /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4649C72AB1AB520081C7F2 /* DeleteButtonView.swift */; };
+		8B4649CA2AB1CB1F0081C7F2 /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4649C92AB1CB1F0081C7F2 /* AddRecordView.swift */; };
 		8B7E7C852AB0945B00E985F0 /* iHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C842AB0945B00E985F0 /* iHabitApp.swift */; };
 		8B7E7C872AB0945B00E985F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C862AB0945B00E985F0 /* ContentView.swift */; };
 		8B7E7C892AB0945C00E985F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E7C882AB0945C00E985F0 /* Assets.xcassets */; };
 		8B7E7C8C2AB0945C00E985F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E7C8B2AB0945C00E985F0 /* Preview Assets.xcassets */; };
+		8B7E7C942AB094F200E985F0 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C932AB094F200E985F0 /* Activity.swift */; };
+		8B7E7C962AB095F300E985F0 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C952AB095F300E985F0 /* Activities.swift */; };
+		8B7E7C982AB0980000E985F0 /* ActivityRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C972AB0980000E985F0 /* ActivityRecord.swift */; };
+		8B7E7C9B2AB0A2C600E985F0 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C9A2AB0A2C600E985F0 /* AddActivityView.swift */; };
+		8B7E7C9D2AB0A5A900E985F0 /* ActivitiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C9C2AB0A5A900E985F0 /* ActivitiesListView.swift */; };
+		8B7E7C9F2AB0ABB100E985F0 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E7C9E2AB0ABB100E985F0 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B4649C72AB1AB520081C7F2 /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
+		8B4649C92AB1CB1F0081C7F2 /* AddRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordView.swift; sourceTree = "<group>"; };
 		8B7E7C812AB0945B00E985F0 /* iHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7E7C842AB0945B00E985F0 /* iHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHabitApp.swift; sourceTree = "<group>"; };
 		8B7E7C862AB0945B00E985F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B7E7C882AB0945C00E985F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7E7C8B2AB0945C00E985F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B7E7C932AB094F200E985F0 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		8B7E7C952AB095F300E985F0 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		8B7E7C972AB0980000E985F0 /* ActivityRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRecord.swift; sourceTree = "<group>"; };
+		8B7E7C9A2AB0A2C600E985F0 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		8B7E7C9C2AB0A5A900E985F0 /* ActivitiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesListView.swift; sourceTree = "<group>"; };
+		8B7E7C9E2AB0ABB100E985F0 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 		8B7E7C832AB0945B00E985F0 /* iHabit */ = {
 			isa = PBXGroup;
 			children = (
+				8B7E7C992AB0A2B500E985F0 /* views */,
+				8B7E7C922AB094D800E985F0 /* entities */,
 				8B7E7C842AB0945B00E985F0 /* iHabitApp.swift */,
 				8B7E7C862AB0945B00E985F0 /* ContentView.swift */,
 				8B7E7C882AB0945C00E985F0 /* Assets.xcassets */,
@@ -65,6 +83,28 @@
 				8B7E7C8B2AB0945C00E985F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B7E7C922AB094D800E985F0 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				8B7E7C932AB094F200E985F0 /* Activity.swift */,
+				8B7E7C952AB095F300E985F0 /* Activities.swift */,
+				8B7E7C972AB0980000E985F0 /* ActivityRecord.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		8B7E7C992AB0A2B500E985F0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8B7E7C9A2AB0A2C600E985F0 /* AddActivityView.swift */,
+				8B7E7C9C2AB0A5A900E985F0 /* ActivitiesListView.swift */,
+				8B7E7C9E2AB0ABB100E985F0 /* ActivityView.swift */,
+				8B4649C72AB1AB520081C7F2 /* DeleteButtonView.swift */,
+				8B4649C92AB1CB1F0081C7F2 /* AddRecordView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7E7C962AB095F300E985F0 /* Activities.swift in Sources */,
+				8B7E7C942AB094F200E985F0 /* Activity.swift in Sources */,
 				8B7E7C872AB0945B00E985F0 /* ContentView.swift in Sources */,
+				8B7E7C9D2AB0A5A900E985F0 /* ActivitiesListView.swift in Sources */,
+				8B7E7C9B2AB0A2C600E985F0 /* AddActivityView.swift in Sources */,
+				8B4649CA2AB1CB1F0081C7F2 /* AddRecordView.swift in Sources */,
+				8B4649C82AB1AB520081C7F2 /* DeleteButtonView.swift in Sources */,
+				8B7E7C9F2AB0ABB100E985F0 /* ActivityView.swift in Sources */,
+				8B7E7C982AB0980000E985F0 /* ActivityRecord.swift in Sources */,
 				8B7E7C852AB0945B00E985F0 /* iHabitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
